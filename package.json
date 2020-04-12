@@ -1,0 +1,14 @@
+{
+  "name": "voet-ui",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "sass scss/voet.scss dist/voet.css",
+    "start": "sass --watch scss/voet.scss dist/voet.css"
+  },
+  "author": "Alper Unal",
+  "license": "MIT",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}

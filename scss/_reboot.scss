@@ -1,0 +1,16 @@
+@use "../node_modules/normalize.css/normalize.css";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: $font__family;
+    font-weight: $font__weight;
+    color: $color__text;
+    text-align: $text__align;
+    background-color: $color__background;
+}

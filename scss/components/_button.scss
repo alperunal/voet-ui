@@ -1,0 +1,19 @@
+.button {
+  display: inline-block;
+  font-family: $font__family;
+  font-weight: $font__weight;
+  color: $color__text;
+  padding: $padding;
+
+  &--success {
+    background-color: $color__background--success;
+  }
+
+  &--warning {
+    background-color: $color__background--warning;
+  }
+
+  &--danger {
+    background-color: $color__background--danger;
+  }
+}

@@ -1,0 +1,22 @@
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  background-color: $color__background--secondary;
+  border-radius: 25px;
+  box-shadow: 0 1px 14px $color__box-shadow;
+  margin: 25px;
+
+  &--success {
+    background-color: $color__background--success;
+  }
+
+  &--warning {
+    background-color: $color__background--warning;
+  }
+
+  &--danger {
+    background-color: $color__background--danger;
+  }
+}
