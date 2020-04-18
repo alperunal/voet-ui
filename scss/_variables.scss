@@ -7,41 +7,45 @@ $color__yellow: #ffbc25;
 $color__yellow--light: #ffc542;
 $color__green: #25c685;
 $color__green--light: #3dd598;
+$color__green--dark: #286053;
 $color__blue: #005df2;
 $color__blue--light: #0062ff;
 $color__purple: #6952dc;
 $color__purple--light: #755fe2;
-$color__white: #ffffff;
+$color__white: #fff;
 $color__gray: #475e69;
 $color__gray--light: #96a7af;
 $color__gray--dark: #30444e;
 $color__clay: #203037;
-$color__shadow: #19282F;
+$color__shadow: #19282f;
 
 $colors: (
-    "red":            $color__red,
-    "red-light":      $color__red--light,
-    "orange":         $color__orange,
-    "orange-light":   $color__orange--light,
-    "yellow":         $color__yellow,
-    "yellow-light":   $color__yellow--light,
-    "green":          $color__green,
-    "green-light":    $color__green--light,
-    "blue":           $color__blue,
-    "blue-light":     $color__blue--light,
-    "purple":         $color__purple,
-    "purple-light":   $color__purple--light,
-    "white":          $color__white,
-    "gray":           $color__gray,
-    "gray-light":     $color__gray--light,
-    "gray-dark":      $color__gray--dark,
-    "clay":           $color__clay,
-    "shadow":         $color__shadow
+  'red': $color__red,
+  'red-light': $color__red--light,
+  'orange': $color__orange,
+  'orange-light': $color__orange--light,
+  'yellow': $color__yellow,
+  'yellow-light': $color__yellow--light,
+  'green': $color__green,
+  'green-light': $color__green--light,
+  'blue': $color__blue,
+  'blue-light': $color__blue--light,
+  'purple': $color__purple,
+  'purple-light': $color__purple--light,
+  'white': $color__white,
+  'gray': $color__gray,
+  'gray-light': $color__gray--light,
+  'gray-dark': $color__gray--dark,
+  'clay': $color__clay,
+  'shadow': $color__shadow,
 ) !default;
 
 // Font
-$font__family--sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI",  Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-$font__family--monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+$font__family--sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+  'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+$font__family--monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+  'Liberation Mono', 'Courier New', monospace;
 
 $font__size--xs: 10px;
 $font__size--sm: 12px;
@@ -83,7 +87,8 @@ $color__background--danger: $color__red--light;
 $color__box-shadow: $color__shadow;
 $font__family: $font__family--sans-serif;
 $font__weight: normal;
+$font__weight--secondary: 500;
 $text__align: left;
 $font__size: $font__size--md;
-$margin: $margin--xl;
-$padding: $padding--md;
+$margin: $margin--xxl;
+$padding: $padding--xl;

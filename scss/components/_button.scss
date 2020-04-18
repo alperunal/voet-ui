@@ -1,9 +1,13 @@
 .button {
+  border: 0;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(15, 218, 137, 0.3);
+  color: $color__text;
   display: inline-block;
   font-family: $font__family;
-  font-weight: $font__weight;
-  color: $color__text;
-  padding: $padding;
+  font-weight: $font__weight--secondary;
+  height: 58px;
+  margin: $margin--sm;
 
   &--success {
     background-color: $color__background--success;

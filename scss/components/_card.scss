@@ -1,22 +1,23 @@
 .card {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
   background-color: $color__background--secondary;
   border-radius: 25px;
   box-shadow: 0 1px 14px $color__box-shadow;
-  margin: 25px;
+  display: flex;
+  flex-direction: column;
+  margin: $margin;
+  min-width: 0;
+  padding: $padding;
+  position: relative;
 
-  &--success {
+  &.card--success {
     background-color: $color__background--success;
   }
 
-  &--warning {
+  &.card--warning {
     background-color: $color__background--warning;
   }
 
-  &--danger {
+  &.card--danger {
     background-color: $color__background--danger;
   }
 }

@@ -1,4 +1,4 @@
-@use "../node_modules/normalize.css/normalize.css";
+@use '../node_modules/normalize.css/normalize.css';
 
 *,
 *::before,
@@ -7,10 +7,10 @@
 }
 
 body {
-    margin: 0;
-    font-family: $font__family;
-    font-weight: $font__weight;
-    color: $color__text;
-    text-align: $text__align;
-    background-color: $color__background;
+  background-color: $color__background;
+  color: $color__text;
+  font-family: $font__family;
+  font-weight: $font__weight;
+  margin: 0;
+  text-align: $text__align;
 }
