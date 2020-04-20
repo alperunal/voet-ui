@@ -20,4 +20,14 @@
   &--danger {
     background-color: $color__background--danger;
   }
+
+  &--primary {
+    background-color: $color__background--success;
+  }
+
+  &--secondary {
+    background-color: $color__green--dark;
+    color: $color__primary--active;
+    box-shadow: none;
+  }
 }
