@@ -19,6 +19,11 @@ $color__gray--dark: #30444e;
 $color__clay: #203037;
 $color__shadow: #19282f;
 
+$color__theme--primary: linear-gradient(180deg, #40df9f 0%, #3ed598 100%);
+$color__theme--secondary-one: linear-gradient(138.7deg, #2a3c44 25.75%, #23343c 100%);
+$color__theme--secondary-two: #2a3c44;
+$color__theme--secondary-three: linear-gradient(138.7deg, #22343c 25.86%, #22343c 25.87%, #1f2e35 100%);
+
 $colors: (
   'red': $color__red,
   'red-light': $color__red--light,
