@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "sass scss/voet.scss dist/voet.css",
+    "dist": "sass scss/voet.scss dist/voet.css",
+    "docs": "sass scss/voet.scss docs/voet.css",
+    "build": "npm run dist && npm run docs",
     "start": "sass --watch scss/voet.scss dist/voet.css",
     "test": "npx stylelint \"**/*.scss\"",
     "fix": "prettier --write ."
