@@ -377,32 +377,62 @@ body {
 }
 
 .button {
+  background-color: #96a7af;
   border: 0;
   border-radius: 12px;
-  box-shadow: 0 2px 4px rgba(15, 218, 137, 0.3);
+  box-shadow: 0 2px 4px rgba(32, 48, 55, 0.3);
   color: #fff;
   display: inline-block;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 14px;
   font-weight: 500;
-  height: 58px;
+  height: 40px;
   margin: 10px;
+}
+.button:active, .button:hover {
+  background-color: #475e69;
+}
+.button--sm {
+  font-size: 12px;
+  height: 27px;
+}
+.button--lg {
+  font-size: 16px;
+  height: 58px;
 }
 .button--success {
   background-color: #3dd598;
+  box-shadow: 0 2px 4px rgba(15, 218, 137, 0.3);
+}
+.button--success:active, .button--success:hover {
+  background-color: #25c685;
 }
 .button--warning {
   background-color: #ffc542;
 }
+.button--warning:active, .button--warning:hover {
+  background-color: #ffbc25;
+}
 .button--danger {
   background-color: #ff575f;
 }
+.button--danger:active, .button--danger:hover {
+  background-color: #ff464f;
+}
 .button--primary {
   background-color: #3dd598;
+  box-shadow: 0 2px 4px rgba(15, 218, 137, 0.3);
+}
+.button--primary:active, .button--primary:hover {
+  background-color: #25c685;
 }
 .button--secondary {
   background-color: #286053;
-  color: #3dd598;
   box-shadow: none;
+  color: #3dd598;
+}
+.button--secondary:active, .button--secondary:hover {
+  background-color: #475e69;
 }
 
 .card {
@@ -436,6 +466,56 @@ body {
   line-height: 16px;
   margin: 10px;
   padding-left: 15px;
+}
+
+.list {
+  font-size: 14px;
+  line-height: 16px;
+  list-style-type: none;
+  padding-left: 0;
+}
+.list > li {
+  color: #96a7af;
+}
+.list > li::before {
+  background-color: #96a7af;
+  border-radius: 6px;
+  content: "";
+  display: inline-block;
+  height: 10px;
+  margin-left: -10px;
+  margin-right: 10px;
+  width: 15px;
+}
+.list--success > li::before {
+  background-color: #3dd598;
+}
+.list--warning > li::before {
+  background-color: #ffc542;
+}
+.list--danger > li::before {
+  background-color: #ff575f;
+}
+
+.tag {
+  background-color: #96a7af;
+  border-radius: 4px;
+  color: #fff;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  padding: 6px 15px;
+  text-align: center;
+}
+.tag--success {
+  background-color: #3dd598;
+}
+.tag--warning {
+  background-color: #ffc542;
+}
+.tag--danger {
+  background-color: #ff575f;
 }
 
 /*# sourceMappingURL=voet.css.map */

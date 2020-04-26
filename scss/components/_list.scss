@@ -1,0 +1,45 @@
+.list {
+  font-size: $font__size;
+  line-height: 16px;
+  list-style-type: none;
+  padding-left: 0;
+
+  > li {
+    color: $color__text--secondary;
+
+    &::before {
+      background-color: $color__gray--light;
+      border-radius: 6px;
+      content: '';
+      display: inline-block;
+      height: 10px;
+      margin-left: -10px;
+      margin-right: 10px;
+      width: 15px;
+    }
+  }
+
+  &--success {
+    > li {
+      &::before {
+        background-color: $color__background--success;
+      }
+    }
+  }
+
+  &--warning {
+    > li {
+      &::before {
+        background-color: $color__background--warning;
+      }
+    }
+  }
+
+  &--danger {
+    > li {
+      &::before {
+        background-color: $color__background--danger;
+      }
+    }
+  }
+}

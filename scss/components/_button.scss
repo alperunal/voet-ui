@@ -1,33 +1,77 @@
 .button {
+  background-color: $color__gray--light;
   border: 0;
   border-radius: 12px;
-  box-shadow: 0 2px 4px rgba(15, 218, 137, 0.3);
+  box-shadow: 0 2px 4px rgba(32, 48, 55, 0.3);
   color: $color__text;
   display: inline-block;
   font-family: $font__family;
+  font-size: $font__size;
   font-weight: $font__weight--secondary;
-  height: 58px;
+  height: 40px;
   margin: $margin--sm;
+
+  &:active,
+  &:hover {
+    background-color: $color__gray;
+  }
+
+  &--sm {
+    font-size: $font__size--sm;
+    height: 27px;
+  }
+
+  &--lg {
+    font-size: $font__size--lg;
+    height: 58px;
+  }
 
   &--success {
     background-color: $color__background--success;
+    box-shadow: 0 2px 4px rgba(15, 218, 137, 0.3);
+
+    &:active,
+    &:hover {
+      background-color: $color__background--success-secondary;
+    }
   }
 
   &--warning {
     background-color: $color__background--warning;
+
+    &:active,
+    &:hover {
+      background-color: $color__background--warning-secondary;
+    }
   }
 
   &--danger {
     background-color: $color__background--danger;
+
+    &:active,
+    &:hover {
+      background-color: $color__background--danger-secondary;
+    }
   }
 
   &--primary {
     background-color: $color__background--success;
+    box-shadow: 0 2px 4px rgba(15, 218, 137, 0.3);
+
+    &:active,
+    &:hover {
+      background-color: $color__primary;
+    }
   }
 
   &--secondary {
     background-color: $color__green--dark;
-    color: $color__primary--active;
     box-shadow: none;
+    color: $color__primary--active;
+
+    &:active,
+    &:hover {
+      background-color: $color__gray;
+    }
   }
 }
