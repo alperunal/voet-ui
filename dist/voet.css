@@ -441,10 +441,15 @@ body {
   box-shadow: 0 1px 14px #19282f;
   display: flex;
   flex-direction: column;
-  margin: 30px;
   min-width: 0;
-  padding: 25px;
+  padding: 10px;
   position: relative;
+}
+@media (min-width: 768px) {
+  .card {
+    margin: 30px;
+    padding: 25px;
+  }
 }
 .card.card--success {
   background-color: #3dd598;

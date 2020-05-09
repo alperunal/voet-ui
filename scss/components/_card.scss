@@ -4,10 +4,14 @@
   box-shadow: 0 1px 14px $color__box-shadow;
   display: flex;
   flex-direction: column;
-  margin: $margin;
   min-width: 0;
-  padding: $padding;
+  padding: $padding--sm;
   position: relative;
+
+  @media(min-width: $breakpoint--md) {
+    margin: $margin;
+    padding: $padding;
+  }
 
   &.card--success {
     background-color: $color__background--success;
